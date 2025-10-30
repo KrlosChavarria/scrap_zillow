@@ -1,0 +1,20 @@
+{
+  "name": "scrap_zillow",
+  "version": "1.0.0",
+  "description": "Herramienta CLI para extraer datos de listados de Zillow sin interactuar con el challenge de bot.",
+  "main": "src/scrape.js",
+  "bin": {
+    "zillow-scraper": "src/scrape.js"
+  },
+  "scripts": {
+    "scrape": "node src/scrape.js"
+  },
+  "keywords": [
+    "zillow",
+    "scraper",
+    "real-estate"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
